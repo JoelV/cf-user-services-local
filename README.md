@@ -11,7 +11,7 @@ Pass your default configs into this module and have either, the default configs 
 
 ### Installation
 ```
-npm install cf-user-services-local
+npm install @joelv/cf-user-services-local
 ```
 
 ### Example
@@ -30,7 +30,7 @@ var defaultConfigs = {
 }
 
 // Pass your defaults into the module
-var configs = require('cf-user-services-local')(defaultConfigs)
+var configs = require('@joelv/cf-user-services-local')(defaultConfigs)
 
 console.log(configs);
 // → Will return Cloud Foundry user-services if deployed, else will return your default configs
